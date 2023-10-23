@@ -13,3 +13,15 @@ for (i = 0; i < numbers.length; i++) {
         display.textContent = Input;
     });
 }
+const operators = document.querySelectorAll(".operator");
+for (i = 0; i < operators.length; i++) {
+    const operator = operators[i];
+    operator.addEventListener("click", () => {
+        if (Input !== "") {
+            Operator = operator.textContent;
+            result = parseFloat(Input);
+            firstInput = parseFloat(Input);
+            Input = "";
+        }
+    });
+}
