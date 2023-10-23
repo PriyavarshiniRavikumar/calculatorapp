@@ -25,3 +25,28 @@ for (i = 0; i < operators.length; i++) {
         }
     });
 }
+const equalButton = document.querySelector("#equalbtn");
+equalButton.addEventListener("click", () => {
+    if (Input !== "") {
+        const secondOperand = parseFloat(Input);
+
+        switch (Operator) {
+            case "+":
+                result += secondOperand;
+                break;
+            case "-":
+                result -= secondOperand;
+                break;
+            case "*":
+                result *= secondOperand;
+                break;
+            case "/":
+                result /= secondOperand;
+                break;
+        }
+        // Input = "";
+        // Operator = "";
+        quesdisplay.textContent = `${firstInput} ${Operator} ${secondOperand} =`;
+        display.textContent = result;
+    }
+});
