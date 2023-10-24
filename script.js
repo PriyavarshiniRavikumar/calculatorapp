@@ -50,3 +50,11 @@ equalButton.addEventListener("click", () => {
         display.textContent = result;
     }
 });
+const clearButton = document.querySelector("#btnclear");
+clearButton.addEventListener("click", () => {
+    Input = "";
+    Operator = "";
+    quesdisplay.textContent = "";
+    display.textContent = "";
+});
+
