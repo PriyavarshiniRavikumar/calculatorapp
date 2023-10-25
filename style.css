@@ -3,6 +3,16 @@
     grid-template-columns: auto auto auto auto;
     height: 400px;
 }
-    .buttons button {
+.buttons button {
         font-size: 35px;
     }
+#res-box {
+    width: 99.9%;
+    height: 50px;
+    border: none;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
