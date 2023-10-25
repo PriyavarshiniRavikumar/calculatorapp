@@ -3,3 +3,6 @@
     grid-template-columns: auto auto auto auto;
     height: 400px;
 }
+    .buttons button {
+        font-size: 35px;
+    }
