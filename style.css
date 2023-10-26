@@ -25,5 +25,9 @@
     background-color: black;
     color: white;
 }
+#btnclear {
+    grid-column: 1/4;
+}
+
 
 
