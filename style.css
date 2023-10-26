@@ -28,6 +28,11 @@
 #btnclear {
     grid-column: 1/4;
 }
+#btn0 {
+    grid-column: 1/4;
+    border-bottom-left-radius: 20px;
+}
+
 
 
 
