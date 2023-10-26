@@ -32,6 +32,12 @@
     grid-column: 1/4;
     border-bottom-left-radius: 20px;
 }
+.operator {
+    background-color: rgb(221, 174, 54);
+    color: white;
+}
+
+
 
 
 
