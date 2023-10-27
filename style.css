@@ -41,6 +41,10 @@
     color: white;
     border-bottom-right-radius: 20px;
 }
+.number {
+    background-color: rgb(51, 17, 17);
+    color: white;
+}
 
 
 
