@@ -36,6 +36,11 @@
     background-color: rgb(221, 174, 54);
     color: white;
 }
+#equalbtn {
+    background-color: rgb(221, 174, 54);
+    color: white;
+    border-bottom-right-radius: 20px;
+}
 
 
 
